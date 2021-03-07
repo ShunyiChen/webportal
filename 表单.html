@@ -11,24 +11,41 @@
 <body>
   <form action="" method="POST" name="name1">
     用户名:
-    <input type="text" />
+    <input type="text" maxlength="6"/>
     <br />
     密码:
-    <input type="password" />
+    <input type="password" maxlength="6"/>
     <br />
 
     婚姻状况:<br />
-    已婚:
-    <input type="radio" name="a1" value="1"/>
+    <label for="marry">已婚:</label>
+    <input type="radio" checked="checked" name="a1" value="1" id="marry"/>
     未婚:
-    <input type="radio" name="a1" value="2"/>
+    <input type="radio" name="a1" value="2" />
     <br />
     爱好:
     <br />
-    吃饭<input type="checkbox" name="hobby" value="1"/>
-     睡觉 <input type="checkbox" name="hobby" value="2"/>
-     打豆豆 <input type="checkbox" name="hobby" value="3"/>
+    吃饭<input type="checkbox" name="hobby" value="1" />
+    睡觉 <input type="checkbox" name="hobby" value="2" />
+    打豆豆 <input type="checkbox" checked="checked" name="hobby" value="3" />
 
+    <br/>
+    <input type="submit" value="免费注册"/>
+    <input type="reset" value="重 置"/>
+    <input type="button" value="获取短信代码"/>
+    <input type="file"/>
+    <br/>
+
+    籍贯:
+    <select>
+      <option>北京</option>
+      <option selected="selected">山东</option>
+      <option>火星</option>
+    </select>
+    <br/>
+    文本域:
+    <textarea rows="10" cols="100">内容</textarea>
+    <br/>
 
   </form>
 </body>

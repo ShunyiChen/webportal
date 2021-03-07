@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>标签选择器</title>
+            <style>
+                p {
+                  color: aqua;
+                  font-style: italic;
+                }
+                div {
+                  color: pink;
+                }
+                .red {
+                  color: purple;
+                }
+                .star-sing {
+                  color: saddlebrown;
+                }
+                .font35 {
+                    font-size: 35px;
+                }
+                #pink {
+                  color: pink;
+                }
+
+                * {
+                  font-size: 26px;
+                }
+
+                h2 {
+                  font-family: '不存在字体','幼圆','微软雅黑', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+                }
+                .bold {
+                  font-weight: 600;
+                }
+                em {
+                  font-style: normal;
+                }
+                div {
+                  /*
+                  font-style: italic;
+                  font-weight: 700;
+                  font-size: 26px;
+                  font-family: 'Times New Roman', Times, serif;
+                  color: seagreen;*/
+                  
+                  /*等同于:*/
+                  font: italic 700 29px 'Times New Roman';
+
+                }
+                
+
+            </style>
+</head>
+<body>
+          <h2>全局字体</h2>
+            <p class="bold">男</p>                 
+            <div>女</div>
+
+            <ul>
+              <li class="red">sssssssssssss</li>
+              <li class="red">ccccccccccc</li>
+              <li class="red">fffffffffffffff</li>
+            </ul>
+
+            <div class="red font35">
+                hello,div
+            </div>
+            <div id="pink" class="star-sing">
+               Star sing the song
+          </div>
+          <div id="pink"  >
+            Pink 收到
+       </div>
+
+       <em>倾斜字体</em>
+
+       <div>的CDC的电动车的</div>
+
+</body>
+</html>
