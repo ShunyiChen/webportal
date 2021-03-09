@@ -1,0 +1,55 @@
+p {
+  text-indent: 2em;
+}
+
+h2 {
+  font-family: '不存在字体','微软雅黑', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+.grap {
+  color: gray;
+}
+
+.bgcolor {
+  background-color: rgb(242, 242, 248);
+}
+
+.main-div {
+  padding: 20px;
+     width: 66%;
+       height: 100%;
+  background-color: white;
+}
+
+.child1-div {
+  top: 200px;
+  width: 66%;
+  height: 100%;
+}
+
+.child2-div {
+  
+}
+
+ol li {
+  color: brown;
+}
+
+ol li a {
+  color: gold;
+}
+
+.nav li a {
+  color: aqua;
+}
+
+.nav2>a {
+  color:red;
+}
+
+.pig div,p, .xiao li {
+  color: burlywood;
+}
