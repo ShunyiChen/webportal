@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box布局</title>
+  <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 298px;
+        height: 415px;
+        background-color: white;
+        /*水平居中对齐*/
+        margin: 100px auto;
+      }
+      .box img {
+        width: 100%;
+      }
+      .review {
+        height: 70px;
+        font-size: 14px;
+        padding: 0 28px;
+        margin-top: 30px;
+      }
+      .appraise {
+        font-size: 12px;
+        color:gray;
+        padding: 0 28px;
+        margin-top: 20px;
+      }
+      .info {
+        font-size: 14px;
+        margin-top: 15px;
+        padding: 0 28px;
+      }
+      .info h4{
+          display: inline-block;
+          font-weight: 400;
+      }
+      .info span {
+        color: orange;
+      }
+      .info em {
+        font-style: normal;
+        color: darkgray;
+        margin: 0 6px 0 15px;
+      }
+      body {
+        background-color:rgb(245, 245, 245);
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+  </style>
+</head>
+<body>
+    <div class="box">
+        <img src="../images/macbook.jpg" alt="" class="url">
+        <p class="review"><a href="#">黑马程序员pink老师前端入门视频教程 HTML5+CSS3+移动端玩</a></p>
+        <div class="appraise">
+            来自于123321的评价
+        </div>
+        <div class="info">
+          <h4><a href="#">小米笔记本Air 13.3"</a></h4>
+          <em>|</em>
+          <span>9999.99元</span>
+        </div>
+    </div>
+</body>
+</html>
